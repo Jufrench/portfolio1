@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="author" content="Julian French">
+    <title>Julian French - Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <nav class="navbar navbar-expand-lg navbar-dark">
+      <div>
+        <a class="navbar-brand" href="#">Jules</a>
+        <a href=""><i class="fas fa-crown"></i></a>
+      </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id="navbarNav" class="collapse navbar-collapse text-center">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid m-0">
+  <div class="container">
+      <div class="name-job text-center">
+         <div class="my-name">
+<!--              <div class="first-name">-->
+                   <h1 class="first-name">
+                       <span>J</span>
+                       <span>U</span>
+                       <span>L</span>
+                       <span>I</span>
+                       <span>A</span>
+                       <span>N</span>
+                   </h1>
+<!--               </div>-->
+<!--               <div class="last-name">-->
+                   <h1 class="last-name">
+                       <span>F</span>
+                       <span>R</span>
+                       <span>E</span>
+                       <span>N</span>
+                       <span>C</span>
+                       <span>H</span>
+                   </h1>
+<!--               </div>-->
+           </div>
+           <p class="job">Web Developer</p>
+      </div>
+
+  </div>
+</div>
+
+   <div id="wrapper">
+       <div class="container">
+            <div class="row section-1">
+                <main id="projects" class="mx-auto text-center pt-2 pb-5">
+                     <h3 class="mb-5">Projects</h3>
+
+                   <!-- CARD ONE FIRST WEBSITE -->
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="http://www.julianfrench.com" target="_blank">Project 1</a></h5>
+                        <p class="card-text">My personal portfolio</p>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#firstWebsite">About</a>
+                      </div>
+                    </div>
+
+                </main>
+            </div>
+
+            <!-- ABOUT -->
+            <div class="row section-2">
+                <section id="about" class="section-class mx-auto mt-2 text-center">
+                    <h3>About</h3>
+                    <p>My name is Julian French and I currently work as a Front-end Web Developer at iModules in Kansas City, MO. I started my coding journey in 2017 through a coding bootcamp at the University of Kansas.<br><br>
+                    My current goals are: Mastering CSS, improving my skills with JavaScript & its frameworks, and learning more Back-end Development.</p>
+                </section>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="row section-3">
+                <section id="contact" class="section-class mx-auto mt-2 text-center">
+                   <h3>Contact</h3>
+                    <a href="mailto:ju.french@gmail.com"><i class="fas fa-envelope"></i><span class="ml-2">ju.french@gmail.com</span></a>
+                </section>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="row justify-content-center pb-0">
+            <p><i class="far fa-copyright"></i><span class="ml-1">2019 Julian French</span></p>
+        </footer>
+   </div>
+
+
+
+   <!-- MODAL: FIRST WEBSITE -->
+<div class="modal fade" id="firstWebsite" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Project 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <p>Text about my first project</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
