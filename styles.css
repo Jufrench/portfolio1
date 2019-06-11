@@ -229,7 +229,7 @@ ul.navbar-nav li a {
 /* CARDS DESKTOP */
 @media only screen and (min-width: 1024px) {
     .card {
-        width: 30%;
+        /* width: 30%; */
         transition: box-shadow .5s;
     }
     .card:hover {
